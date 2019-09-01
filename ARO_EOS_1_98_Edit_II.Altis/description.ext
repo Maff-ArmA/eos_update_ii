@@ -39,6 +39,8 @@ wreckRemovalMaxTime = 900;
 
 minPlayerDistance = 50;
 
+/*
+//	Not relevant.
 cba_settings_hasSettingsFile = 1;
 
 class CfgAISkills
@@ -55,3 +57,4 @@ class CfgAISkills
 	spotDistance[] = {0, 1, 1, 1};
 	spotTime[] = {0, 1, 1, 1};
 };
+*/
