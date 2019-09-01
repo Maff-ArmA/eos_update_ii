@@ -1,0 +1,57 @@
+
+class Header
+{
+	gameType = OP;
+	minPlayers = 1;
+	maxPlayers = 16;
+};
+
+author = "";
+onLoadName = "";
+onLoadMission = "";
+onLoadIntroTime = 0;
+onLoadMissionTime = 0;
+overviewPicture = "";
+
+aiKills = 0;
+briefing = 1;
+respawn = 3;
+//respawnTemplatesWest[] = {"Tickets"};
+respawnButton = 0;
+respawnDelay = 2;
+respawnDialog = 0;
+respawnOnStart = -1;
+
+disabledAI = 1;
+enableDebugConsole = 1;
+allowFunctionsRecompile = 1;
+disableChannels[]= {{0,true,true},{1,true,true},{2,true,true},{4,true,true},{5,true,true}};
+
+corpseManagerMode = 3;
+corpseLimit = 10;
+corpseRemovalMinTime = 60;
+corpseRemovalMaxTime = 900;
+
+wreckManagerMode = 3;
+wreckLimit = 5;
+wreckRemovalMinTime = 60;
+wreckRemovalMaxTime = 900;
+
+minPlayerDistance = 50;
+
+cba_settings_hasSettingsFile = 1;
+
+class CfgAISkills
+{
+	//aimingAccuracy[] = {0, 1, 1, 1};
+	aimingAccuracy[] = {0, 0.02, 1, 0.02};
+	aimingShake[] = {0, 0.5, 1, 0.5};
+	aimingSpeed[] = {0, 1, 1, 1};
+	commanding[] = {0, 1, 1, 1};
+	courage[] = {0, 0.5, 1, 1};
+	//endurance[] = {0, 1, 1, 1};
+	general[] = {0, 1, 1, 1};
+	reloadSpeed[] = {0, 1, 1, 1};
+	spotDistance[] = {0, 1, 1, 1};
+	spotTime[] = {0, 1, 1, 1};
+};
